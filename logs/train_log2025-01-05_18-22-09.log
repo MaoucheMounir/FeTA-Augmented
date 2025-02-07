@@ -1,0 +1,18 @@
+Data Augmentation:['random_invert', 'gaussian_noise']
+{'data_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/mri', 'labels_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/segmentation', 'weights_path': '/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir', 'input_ch': 1, 'output_ch': 2, 'nb_dataloaders': 1, 'patch_size': (128, 128, 128), 'stride': 32, 'lr': 0.01, 'test_split': 0.2, 'val_split': 0.1, 'smooth': 1e-05, 'ee': 2.220446049250313e-16, 'num_epochs': 25, 'batch_size': 2, 'device': 'cuda'}  0%|          | 0/25 [00:00<?, ?it/s]
+ Train loss:  0.5865602861046791
+
+ Train dice score:  0.6024221
+  0%|          | 0/25 [09:45<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/a3D_UNet_1dataloader_1label.py", line 383, in <module>
+    eval_loss, eval_dice = evaluate(val_loader, model, loss_fn, device) #j'ai ajoute device a cause de l'importation
+  File "/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/functionsAndClasses.py", line 57, in evaluate
+    pred = model(x)
+  File "/home/imag2/miniconda3/envs/UnetGarance/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/imag2/miniconda3/envs/UnetGarance/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/modelClasses.py", line 98, in forward
+    d2 = torch.cat((x1, d2), dim=1)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0 has a total capacity of 15.68 GiB of which 276.81 MiB is free. Including non-PyTorch memory, this process has 14.81 GiB memory in use. Of the allocated memory 14.32 GiB is allocated by PyTorch, and 211.23 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

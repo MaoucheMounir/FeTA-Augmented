@@ -1,0 +1,134 @@
+Data Augmentation:['random_invert', 'gaussian_noise']
+{'data_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/mri', 'labels_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/segmentation', 'weights_path': '/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir', 'input_ch': 1, 'output_ch': 2, 'nb_dataloaders': 1, 'patch_size': (96, 96, 96), 'stride': 32, 'lr': 0.01, 'test_split': 0.2, 'val_split': 0.1, 'smooth': 1e-05, 'ee': 2.220446049250313e-16, 'num_epochs': 20, 'batch_size': 2, 'device': 'cuda', 'note': "Contrairement a avant, j'ai rentre le calcul de la loss dans le with torch.autocast"}  0%|          | 0/20 [00:00<?, ?it/s]
+ Train loss:  0.6279803792834282
+
+ Train dice score:  0.55620146
+
+ Val loss:  1.939583311478297
+
+ Val dice score:  0.26957995
+  5%|5         | 1/20 [05:16<1:40:13, 316.49s/it]
+ Train loss:  0.5926603466868401
+
+ Train dice score:  0.5671015
+
+ Val loss:  1.0546786017991878
+
+ Val dice score:  0.4150422
+ 10%|#         | 2/20 [09:55<1:28:22, 294.57s/it]
+ Train loss:  0.5871607180535793
+
+ Train dice score:  0.57054275
+
+ Val loss:  2.1983297875633947
+
+ Val dice score:  0.24210292
+ 15%|#5        | 3/20 [14:44<1:22:40, 291.77s/it]
+ Train loss:  0.5647934596538544
+
+ Train dice score:  0.5778803
+
+ Val loss:  0.5451538571053081
+
+ Val dice score:  0.52115166
+ 20%|##        | 4/20 [19:48<1:19:07, 296.71s/it]
+ Train loss:  0.5639697364866734
+
+ Train dice score:  0.58091396
+
+ Val loss:  1.381111498232241
+
+ Val dice score:  0.34767348
+ 25%|##5       | 5/20 [24:27<1:12:33, 290.26s/it]
+ Train loss:  0.5519266602098942
+
+ Train dice score:  0.59176844
+
+ Val loss:  2.1353348846788758
+
+ Val dice score:  0.25248712
+ 30%|###       | 6/20 [29:05<1:06:44, 286.06s/it]
+ Train loss:  0.5305349131822586
+
+ Train dice score:  0.6002276
+
+ Val loss:  4.059807753121412
+
+ Val dice score:  0.1491292
+ 35%|###5      | 7/20 [33:41<1:01:19, 283.04s/it]
+ Train loss:  0.5056910741627216
+
+ Train dice score:  0.61467075
+
+ Val loss:  4.4759494927194385
+
+ Val dice score:  0.14013255
+ 40%|####      | 8/20 [38:18<56:11, 280.92s/it]  
+ Train loss:  0.47342606976628304
+
+ Train dice score:  0.64060694
+
+ Val loss:  0.5886836267179913
+
+ Val dice score:  0.5140576
+ 45%|####5     | 9/20 [42:54<51:13, 279.37s/it]
+ Train loss:  0.4664385914206505
+
+ Train dice score:  0.648813
+
+ Val loss:  2.835724793098591
+
+ Val dice score:  0.23201296
+ 50%|#####     | 10/20 [47:30<46:23, 278.31s/it]
+ Train loss:  0.4359658715724945
+
+ Train dice score:  0.6663898
+
+ Val loss:  3.5545326868693032
+
+ Val dice score:  0.16884916
+ 55%|#####5    | 11/20 [52:05<41:36, 277.40s/it]
+ Train loss:  0.43236905765533445
+
+ Train dice score:  0.67244726
+
+ Val loss:  2.9321021095470146
+
+ Val dice score:  0.20867403
+ 60%|######    | 12/20 [56:40<36:52, 276.54s/it]
+ Train loss:  0.39573777201771737
+
+ Train dice score:  0.69359434
+
+ Val loss:  3.610295667692467
+
+ Val dice score:  0.21355976
+ 65%|######5   | 13/20 [1:01:15<32:12, 276.07s/it]
+ Train loss:  0.3857218357026577
+
+ Train dice score:  0.7120205
+
+ Val loss:  0.6898061119847827
+
+ Val dice score:  0.48880208
+ 70%|#######   | 14/20 [1:05:49<27:33, 275.58s/it]
+ Train loss:  0.3397886478304863
+
+ Train dice score:  0.73212945
+
+ Val loss:  2.323993197193852
+
+ Val dice score:  0.2640622
+ 75%|#######5  | 15/20 [1:10:24<22:56, 275.26s/it]
+ Train loss:  0.34184930266439917
+
+ Train dice score:  0.72896177
+
+ Val loss:  1.2894209413616746
+
+ Val dice score:  0.39985406
+ 80%|########  | 16/20 [1:14:58<18:20, 275.06s/it] 80%|########  | 16/20 [1:18:09<19:32, 293.09s/it]
+Traceback (most recent call last):
+  File "/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/a3D_UNet_1dataloader_1label.py", line 338, in <module>
+    assert torch.all(torch.isfinite(pred)), "Les prédictions contiennent des NaN ou Inf !"
+AssertionError: Les prédictions contiennent des NaN ou Inf !

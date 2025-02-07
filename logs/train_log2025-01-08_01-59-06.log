@@ -1,0 +1,802 @@
+Data Augmentation:['random_noise']
+{'data_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/mri', 'labels_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/segmentation', 'weights_path': '/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir', 'input_ch': 1, 'output_ch': 2, 'nb_dataloaders': 1, 'patch_size': (96, 96, 96), 'stride': 32, 'lr': 0.01, 'test_split': 0.2, 'val_split': 0.1, 'smooth': 1e-05, 'ee': 2.220446049250313e-16, 'num_epochs': 100, 'batch_size': 2, 'device': 'cuda', 'note': '* executions a la suite. Avec TorchIO sans autocast ni scaling'}  0%|          | 0/100 [00:00<?, ?it/s]
+ Train loss:  0.5357394255399704
+
+ Train dice score:  0.59118813
+
+ Val loss:  0.49698639385126253
+
+ Val dice score:  0.5470454
+  1%|1         | 1/100 [08:05<13:21:51, 485.97s/it]
+ Train loss:  0.47512033975124357
+
+ Train dice score:  0.6297239
+
+ Val loss:  0.9564362863699595
+
+ Val dice score:  0.49945804
+  2%|2         | 2/100 [16:07<13:09:40, 483.48s/it]
+ Train loss:  0.4507919872254133
+
+ Train dice score:  0.6480868
+
+ Val loss:  0.6545416130511849
+
+ Val dice score:  0.54623246
+  3%|3         | 3/100 [24:08<12:59:40, 482.28s/it]
+ Train loss:  0.4184292294234037
+
+ Train dice score:  0.6711215
+
+ Val loss:  1.394788529585909
+
+ Val dice score:  0.49474177
+  4%|4         | 4/100 [32:08<12:50:20, 481.46s/it]
+ Train loss:  0.39027730517089365
+
+ Train dice score:  0.6889148
+
+ Val loss:  0.6320620979423877
+
+ Val dice score:  0.55476046
+  5%|5         | 5/100 [40:08<12:41:29, 480.95s/it]
+ Train loss:  0.3775998734533787
+
+ Train dice score:  0.7001848
+
+ Val loss:  0.5284176606822897
+
+ Val dice score:  0.5930703
+  6%|6         | 6/100 [48:08<12:33:05, 480.69s/it]
+ Train loss:  0.36241856881976126
+
+ Train dice score:  0.70917714
+
+ Val loss:  0.40184859959063707
+
+ Val dice score:  0.62590194
+  7%|7         | 7/100 [56:09<12:24:45, 480.49s/it]
+ Train loss:  0.3552643934339285
+
+ Train dice score:  0.7165448
+
+ Val loss:  0.5902665047733872
+
+ Val dice score:  0.56701684
+  8%|8         | 8/100 [1:04:06<12:15:26, 479.63s/it]
+ Train loss:  0.34156924691796303
+
+ Train dice score:  0.72364616
+
+ Val loss:  0.4468317225023552
+
+ Val dice score:  0.59964365
+  9%|9         | 9/100 [1:11:53<12:01:07, 475.46s/it]
+ Train loss:  0.3347265259921551
+
+ Train dice score:  0.7277893
+
+ Val loss:  0.4038842335619308
+
+ Val dice score:  0.6422799
+ 10%|#         | 10/100 [1:19:39<11:48:45, 472.50s/it]
+ Train loss:  0.32242191943526266
+
+ Train dice score:  0.73960155
+
+ Val loss:  0.36784745131929714
+
+ Val dice score:  0.70705795
+ 11%|#1        | 11/100 [1:27:24<11:37:37, 470.30s/it]
+ Train loss:  0.2853370500430465
+
+ Train dice score:  0.79484236
+
+ Val loss:  0.27081123394546686
+
+ Val dice score:  0.76384825
+ 12%|#2        | 12/100 [1:35:08<11:27:14, 468.58s/it]
+ Train loss:  0.26796745794266463
+
+ Train dice score:  0.81860745
+
+ Val loss:  0.23438712613036236
+
+ Val dice score:  0.80903053
+ 13%|#3        | 13/100 [1:42:52<11:17:14, 467.07s/it]
+ Train loss:  0.2567172920927405
+
+ Train dice score:  0.8229619
+
+ Val loss:  0.26142205146175845
+
+ Val dice score:  0.7890649
+ 14%|#4        | 14/100 [1:50:35<11:07:37, 465.78s/it]
+ Train loss:  0.20672560820728542
+
+ Train dice score:  0.8595214
+
+ Val loss:  0.21589452066217307
+
+ Val dice score:  0.8125744
+ 15%|#5        | 15/100 [1:58:18<10:58:41, 464.96s/it]
+ Train loss:  0.21497060365974904
+
+ Train dice score:  0.8494712
+
+ Val loss:  0.22756380225635237
+
+ Val dice score:  0.827531
+ 16%|#6        | 16/100 [2:06:01<10:50:01, 464.30s/it]
+ Train loss:  0.19539796074852347
+
+ Train dice score:  0.86620605
+
+ Val loss:  0.20156087239997256
+
+ Val dice score:  0.832692
+ 17%|#7        | 17/100 [2:13:43<10:41:37, 463.83s/it]
+ Train loss:  0.2101455353908241
+
+ Train dice score:  0.85548913
+
+ Val loss:  0.2346877285313827
+
+ Val dice score:  0.80606776
+ 18%|#8        | 18/100 [2:21:26<10:33:19, 463.41s/it]
+ Train loss:  0.1671660742647946
+
+ Train dice score:  0.8794248
+
+ Val loss:  0.3294567685160372
+
+ Val dice score:  0.7620297
+ 19%|#9        | 19/100 [2:29:08<10:25:04, 463.02s/it]
+ Train loss:  0.1545460063777864
+
+ Train dice score:  0.89066625
+
+ Val loss:  0.1826835657228474
+
+ Val dice score:  0.8516387
+ 20%|##        | 20/100 [2:36:50<10:17:05, 462.82s/it]
+ Train loss:  0.1670473191961646
+
+ Train dice score:  0.87680393
+
+ Val loss:  0.24326733189324537
+
+ Val dice score:  0.8144464
+ 21%|##1       | 21/100 [2:44:33<10:09:09, 462.65s/it]
+ Train loss:  0.16891055885702372
+
+ Train dice score:  0.8822947
+
+ Val loss:  0.1815835121260197
+
+ Val dice score:  0.84542495
+ 22%|##2       | 22/100 [2:52:15<10:01:18, 462.55s/it]
+ Train loss:  0.13941825557872653
+
+ Train dice score:  0.89781594
+
+ Val loss:  0.1682382855495369
+
+ Val dice score:  0.8531035
+ 23%|##3       | 23/100 [2:59:57<9:53:29, 462.46s/it] 
+ Train loss:  0.1728441342525184
+
+ Train dice score:  0.88151807
+
+ Val loss:  0.2679620921887733
+
+ Val dice score:  0.7967815
+ 24%|##4       | 24/100 [3:07:39<9:45:31, 462.26s/it]
+ Train loss:  0.14979240902885796
+
+ Train dice score:  0.8913757
+
+ Val loss:  0.2747573755267594
+
+ Val dice score:  0.78650635
+ 25%|##5       | 25/100 [3:15:21<9:37:40, 462.14s/it]
+ Train loss:  0.12280124990269542
+
+ Train dice score:  0.9081946
+
+ Val loss:  0.17103573155623894
+
+ Val dice score:  0.85665023
+ 26%|##6       | 26/100 [3:23:02<9:29:35, 461.83s/it]
+ Train loss:  0.1206065372582525
+
+ Train dice score:  0.90986425
+
+ Val loss:  0.16887878022950004
+
+ Val dice score:  0.85836357
+ 27%|##7       | 27/100 [3:30:43<9:21:32, 461.54s/it]
+ Train loss:  0.11460827426612377
+
+ Train dice score:  0.91398585
+
+ Val loss:  0.14783315277761883
+
+ Val dice score:  0.8704739
+ 28%|##8       | 28/100 [3:38:23<9:13:31, 461.27s/it]
+ Train loss:  0.12255906473845243
+
+ Train dice score:  0.91714925
+
+ Val loss:  0.2356118205934763
+
+ Val dice score:  0.795683
+ 29%|##9       | 29/100 [3:46:04<9:05:40, 461.13s/it]
+ Train loss:  0.1096271184310317
+
+ Train dice score:  0.9193292
+
+ Val loss:  0.1547462710144895
+
+ Val dice score:  0.8655867
+ 30%|###       | 30/100 [3:53:45<8:57:46, 460.95s/it]
+ Train loss:  0.1065671559907496
+
+ Train dice score:  0.91930825
+
+ Val loss:  0.19333951492552404
+
+ Val dice score:  0.84044194
+ 31%|###1      | 31/100 [4:01:25<8:50:00, 460.88s/it]
+ Train loss:  0.11125569653511047
+
+ Train dice score:  0.91397923
+
+ Val loss:  0.13243950561930737
+
+ Val dice score:  0.88959426
+ 32%|###2      | 32/100 [4:09:06<8:42:14, 460.80s/it]
+ Train loss:  0.12264111852273345
+
+ Train dice score:  0.91477084
+
+ Val loss:  0.17909481341916103
+
+ Val dice score:  0.85430676
+ 33%|###3      | 33/100 [4:16:47<8:34:28, 460.73s/it]
+ Train loss:  0.12805690824985505
+
+ Train dice score:  0.91047627
+
+ Val loss:  0.14555975267042717
+
+ Val dice score:  0.87542415
+ 34%|###4      | 34/100 [4:24:27<8:26:47, 460.72s/it]
+ Train loss:  0.10475097798369824
+
+ Train dice score:  0.92084044
+
+ Val loss:  0.16009747547407946
+
+ Val dice score:  0.8647102
+ 35%|###5      | 35/100 [4:32:08<8:19:12, 460.81s/it]
+ Train loss:  0.09782923882082105
+
+ Train dice score:  0.9270388
+
+ Val loss:  0.1451352141038687
+
+ Val dice score:  0.87806016
+ 36%|###6      | 36/100 [4:39:50<8:11:42, 460.98s/it]
+ Train loss:  0.10455416065081954
+
+ Train dice score:  0.92457837
+
+ Val loss:  0.1778530976217654
+
+ Val dice score:  0.8631125
+ 37%|###7      | 37/100 [4:47:31<8:04:03, 461.01s/it]
+ Train loss:  0.10528655060008169
+
+ Train dice score:  0.9231608
+
+ Val loss:  0.18611800636130352
+
+ Val dice score:  0.857084
+ 38%|###8      | 38/100 [4:55:12<7:56:31, 461.15s/it]
+ Train loss:  0.09647641972452402
+
+ Train dice score:  0.9279479
+
+ Val loss:  0.1981392224077825
+
+ Val dice score:  0.82199043
+ 39%|###9      | 39/100 [5:02:54<7:48:53, 461.21s/it]
+ Train loss:  0.09084020905382931
+
+ Train dice score:  0.9303761
+
+ Val loss:  0.17650772144811022
+
+ Val dice score:  0.8479327
+ 40%|####      | 40/100 [5:10:35<7:41:18, 461.30s/it]
+ Train loss:  0.09505972873792053
+
+ Train dice score:  0.92879766
+
+ Val loss:  0.1884795404901659
+
+ Val dice score:  0.8366226
+ 41%|####1     | 41/100 [5:18:17<7:33:42, 461.39s/it]
+ Train loss:  0.10430499709025025
+
+ Train dice score:  0.9263414
+
+ Val loss:  0.16041620113645438
+
+ Val dice score:  0.87276506
+ 42%|####2     | 42/100 [5:25:58<7:26:02, 461.43s/it]
+ Train loss:  0.10288004554063082
+
+ Train dice score:  0.9249305
+
+ Val loss:  0.15618049836269132
+
+ Val dice score:  0.8709204
+ 43%|####3     | 43/100 [5:33:48<7:20:38, 463.83s/it]
+ Train loss:  0.09525423328578472
+
+ Train dice score:  0.9269994
+
+ Val loss:  0.16628792840573522
+
+ Val dice score:  0.8763894
+ 44%|####4     | 44/100 [5:41:30<7:12:22, 463.26s/it]
+ Train loss:  0.100389813169837
+
+ Train dice score:  0.9301117
+
+ Val loss:  0.31256503280666137
+
+ Val dice score:  0.75033313
+ 45%|####5     | 45/100 [5:49:11<7:04:05, 462.65s/it]
+ Train loss:  0.08604027947410942
+
+ Train dice score:  0.93720514
+
+ Val loss:  0.1479137925500119
+
+ Val dice score:  0.87414813
+ 46%|####6     | 46/100 [5:56:52<6:56:02, 462.27s/it]
+ Train loss:  0.08585680773109197
+
+ Train dice score:  0.9379584
+
+ Val loss:  0.16172450594604015
+
+ Val dice score:  0.85781676
+ 47%|####6     | 47/100 [6:04:34<6:48:07, 462.04s/it]
+ Train loss:  0.10143351905792952
+
+ Train dice score:  0.92661357
+
+ Val loss:  0.2005574969160888
+
+ Val dice score:  0.8503592
+ 48%|####8     | 48/100 [6:12:15<6:40:10, 461.75s/it]
+ Train loss:  0.09639943064376712
+
+ Train dice score:  0.929484
+
+ Val loss:  0.1944209977777468
+
+ Val dice score:  0.8257405
+ 49%|####9     | 49/100 [6:19:56<6:32:19, 461.55s/it]
+ Train loss:  0.10283089309185743
+
+ Train dice score:  0.9276565
+
+ Val loss:  0.22549884162705253
+
+ Val dice score:  0.8064487
+ 50%|#####     | 50/100 [6:27:37<6:24:32, 461.44s/it]
+ Train loss:  0.0854745039343834
+
+ Train dice score:  0.94042444
+
+ Val loss:  0.1317564754712361
+
+ Val dice score:  0.892901
+ 51%|#####1    | 51/100 [6:35:18<6:16:47, 461.38s/it]
+ Train loss:  0.0884962276481092
+
+ Train dice score:  0.9353596
+
+ Val loss:  0.1501360351771668
+
+ Val dice score:  0.87530833
+ 52%|#####2    | 52/100 [6:42:59<6:08:56, 461.18s/it]
+ Train loss:  0.08847935857623815
+
+ Train dice score:  0.9403833
+
+ Val loss:  0.3498816308048036
+
+ Val dice score:  0.67327195
+ 53%|#####3    | 53/100 [6:50:40<6:01:13, 461.13s/it]
+ Train loss:  0.075260407557711
+
+ Train dice score:  0.9452003
+
+ Val loss:  0.13907544228627725
+
+ Val dice score:  0.87897646
+ 54%|#####4    | 54/100 [6:58:22<5:53:36, 461.23s/it]
+ Train loss:  0.08081314422562719
+
+ Train dice score:  0.94062644
+
+ Val loss:  0.13431108705009576
+
+ Val dice score:  0.8834996
+ 55%|#####5    | 55/100 [7:06:03<5:45:52, 461.17s/it]
+ Train loss:  0.07501824663951993
+
+ Train dice score:  0.9449845
+
+ Val loss:  0.1279423283757987
+
+ Val dice score:  0.89114654
+ 56%|#####6    | 56/100 [7:13:44<5:38:12, 461.20s/it]
+ Train loss:  0.07838338391110301
+
+ Train dice score:  0.9425669
+
+ Val loss:  0.14598611697416614
+
+ Val dice score:  0.87953174
+ 57%|#####6    | 57/100 [7:21:25<5:30:33, 461.23s/it]
+ Train loss:  0.0800334091372788
+
+ Train dice score:  0.9411222
+
+ Val loss:  0.15369067047895105
+
+ Val dice score:  0.8698802
+ 58%|#####8    | 58/100 [7:29:06<5:22:48, 461.16s/it]
+ Train loss:  0.07632827691547572
+
+ Train dice score:  0.94428957
+
+ Val loss:  0.1357591120802142
+
+ Val dice score:  0.8846339
+ 59%|#####8    | 59/100 [7:36:47<5:15:07, 461.15s/it]
+ Train loss:  0.08227493906766176
+
+ Train dice score:  0.93917423
+
+ Val loss:  0.12206542243560155
+
+ Val dice score:  0.8973798
+ 60%|######    | 60/100 [7:44:28<5:07:24, 461.11s/it]
+ Train loss:  0.08200750295817852
+
+ Train dice score:  0.94671535
+
+ Val loss:  0.1266189567675745
+
+ Val dice score:  0.89395714
+ 61%|######1   | 61/100 [7:52:09<4:59:42, 461.09s/it]
+ Train loss:  0.08350228533893823
+
+ Train dice score:  0.941947
+
+ Val loss:  0.1414515910739148
+
+ Val dice score:  0.8816129
+ 62%|######2   | 62/100 [7:59:51<4:52:02, 461.12s/it]
+ Train loss:  0.07956325547024608
+
+ Train dice score:  0.9428031
+
+ Val loss:  0.12182255147921818
+
+ Val dice score:  0.89410377
+ 63%|######3   | 63/100 [8:07:32<4:44:20, 461.09s/it]
+ Train loss:  0.06924233809299767
+
+ Train dice score:  0.9517318
+
+ Val loss:  0.1326364373995198
+
+ Val dice score:  0.88677555
+ 64%|######4   | 64/100 [8:15:13<4:36:38, 461.06s/it]
+ Train loss:  0.07299787802249193
+
+ Train dice score:  0.94718784
+
+ Val loss:  0.17323585009823242
+
+ Val dice score:  0.854135
+ 65%|######5   | 65/100 [8:22:54<4:28:58, 461.09s/it]
+ Train loss:  0.0740131578631699
+
+ Train dice score:  0.9460006
+
+ Val loss:  0.145512200202103
+
+ Val dice score:  0.87194735
+ 66%|######6   | 66/100 [8:30:35<4:21:19, 461.16s/it]
+ Train loss:  0.07407141309976578
+
+ Train dice score:  0.9455243
+
+ Val loss:  0.12569971137714606
+
+ Val dice score:  0.89137775
+ 67%|######7   | 67/100 [8:38:16<4:13:40, 461.22s/it]
+ Train loss:  0.07788266256265343
+
+ Train dice score:  0.9434392
+
+ Val loss:  0.11635210965242651
+
+ Val dice score:  0.90089726
+ 68%|######8   | 68/100 [8:45:58<4:06:01, 461.29s/it]
+ Train loss:  0.0791087707951665
+
+ Train dice score:  0.94533575
+
+ Val loss:  0.17706120283239418
+
+ Val dice score:  0.86805654
+ 69%|######9   | 69/100 [8:53:39<3:58:19, 461.28s/it]
+ Train loss:  0.0858392090909183
+
+ Train dice score:  0.9399766
+
+ Val loss:  0.15624384944223696
+
+ Val dice score:  0.8695331
+ 70%|#######   | 70/100 [9:01:20<3:50:36, 461.20s/it]
+ Train loss:  0.07596800059452653
+
+ Train dice score:  0.9436273
+
+ Val loss:  0.1432329490435896
+
+ Val dice score:  0.87914956
+ 71%|#######1  | 71/100 [9:09:01<3:42:53, 461.14s/it]
+ Train loss:  0.07793580820038915
+
+ Train dice score:  0.94897646
+
+ Val loss:  0.14550231066015032
+
+ Val dice score:  0.8766275
+ 72%|#######2  | 72/100 [9:16:42<3:35:12, 461.15s/it]
+ Train loss:  0.07183504925295711
+
+ Train dice score:  0.94704825
+
+ Val loss:  0.1444919011383145
+
+ Val dice score:  0.8775796
+ 73%|#######3  | 73/100 [9:24:24<3:27:31, 461.18s/it]
+ Train loss:  0.07259493104368449
+
+ Train dice score:  0.9495416
+
+ Val loss:  0.15555536491727387
+
+ Val dice score:  0.8765403
+ 74%|#######4  | 74/100 [9:32:05<3:19:50, 461.16s/it]
+ Train loss:  0.06756186308898032
+
+ Train dice score:  0.9523611
+
+ Val loss:  0.1477614846425476
+
+ Val dice score:  0.8783218
+ 75%|#######5  | 75/100 [9:39:46<3:12:07, 461.11s/it]
+ Train loss:  0.06948011843673885
+
+ Train dice score:  0.9495132
+
+ Val loss:  0.14853991395621388
+
+ Val dice score:  0.87981975
+ 76%|#######6  | 76/100 [9:47:27<3:04:26, 461.12s/it]
+ Train loss:  0.0695689165815711
+
+ Train dice score:  0.949538
+
+ Val loss:  0.1593355160482504
+
+ Val dice score:  0.8702706
+ 77%|#######7  | 77/100 [9:55:08<2:56:45, 461.09s/it]
+ Train loss:  0.06735644879192114
+
+ Train dice score:  0.95205957
+
+ Val loss:  0.14880964939517002
+
+ Val dice score:  0.8790483
+ 78%|#######8  | 78/100 [10:02:49<2:49:05, 461.16s/it]
+ Train loss:  0.06541151669621467
+
+ Train dice score:  0.9521205
+
+ Val loss:  0.1316251231495429
+
+ Val dice score:  0.89420855
+ 79%|#######9  | 79/100 [10:10:30<2:41:25, 461.21s/it]
+ Train loss:  0.06298913880996405
+
+ Train dice score:  0.9541053
+
+ Val loss:  0.13692526991858525
+
+ Val dice score:  0.88731027
+ 80%|########  | 80/100 [10:18:12<2:33:43, 461.20s/it]
+ Train loss:  0.07117595189809799
+
+ Train dice score:  0.94755447
+
+ Val loss:  0.1509474047149221
+
+ Val dice score:  0.884847
+ 81%|########1 | 81/100 [10:25:53<2:26:04, 461.29s/it]
+ Train loss:  0.06625302751921117
+
+ Train dice score:  0.95391405
+
+ Val loss:  0.12938170190210696
+
+ Val dice score:  0.8954351
+ 82%|########2 | 82/100 [10:33:34<2:18:23, 461.32s/it]
+ Train loss:  0.06851356572657824
+
+ Train dice score:  0.9498998
+
+ Val loss:  0.16230123538385938
+
+ Val dice score:  0.85940516
+ 83%|########2 | 83/100 [10:41:16<2:10:41, 461.29s/it]
+ Train loss:  0.07068597214482725
+
+ Train dice score:  0.9506479
+
+ Val loss:  0.1308271774539241
+
+ Val dice score:  0.89426714
+ 84%|########4 | 84/100 [10:48:57<2:03:01, 461.35s/it]
+ Train loss:  0.06685586459934711
+
+ Train dice score:  0.9509033
+
+ Val loss:  0.1190652350584666
+
+ Val dice score:  0.9002017
+ 85%|########5 | 85/100 [10:56:39<1:55:21, 461.42s/it]
+ Train loss:  0.06434380578435958
+
+ Train dice score:  0.95413697
+
+ Val loss:  0.16937702618263387
+
+ Val dice score:  0.8737407
+ 86%|########6 | 86/100 [11:04:20<1:47:40, 461.43s/it]
+ Train loss:  0.06482031551748514
+
+ Train dice score:  0.9536963
+
+ Val loss:  0.12742672125912374
+
+ Val dice score:  0.895606
+ 87%|########7 | 87/100 [11:12:02<1:39:58, 461.40s/it]
+ Train loss:  0.0663568628821522
+
+ Train dice score:  0.95138276
+
+ Val loss:  0.13996400218456984
+
+ Val dice score:  0.8851212
+ 88%|########8 | 88/100 [11:19:43<1:32:16, 461.37s/it]
+ Train loss:  0.06483948985114693
+
+ Train dice score:  0.9529688
+
+ Val loss:  0.16078280257406058
+
+ Val dice score:  0.86898875
+ 89%|########9 | 89/100 [11:27:24<1:24:35, 461.39s/it]
+ Train loss:  0.07060214751027524
+
+ Train dice score:  0.9543211
+
+ Val loss:  0.1278989482326088
+
+ Val dice score:  0.8911877
+ 90%|######### | 90/100 [11:35:06<1:16:53, 461.35s/it]
+ Train loss:  0.06684058795124292
+
+ Train dice score:  0.9515853
+
+ Val loss:  0.12455531837487663
+
+ Val dice score:  0.8948682
+ 91%|#########1| 91/100 [11:42:47<1:09:12, 461.36s/it]
+ Train loss:  0.06608672979474067
+
+ Train dice score:  0.9509631
+
+ Val loss:  0.135461635818636
+
+ Val dice score:  0.8894127
+ 92%|#########2| 92/100 [11:50:28<1:01:30, 461.34s/it]
+ Train loss:  0.0640493301935494
+
+ Train dice score:  0.9543232
+
+ Val loss:  0.12476924030731122
+
+ Val dice score:  0.8976935
+ 93%|#########3| 93/100 [11:58:09<53:49, 461.29s/it]  
+ Train loss:  0.06517710998468101
+
+ Train dice score:  0.95221597
+
+ Val loss:  0.12531645937512317
+
+ Val dice score:  0.892216
+ 94%|#########3| 94/100 [12:05:51<46:07, 461.28s/it]
+ Train loss:  0.06406641071476042
+
+ Train dice score:  0.95514214
+
+ Val loss:  0.11188507769946698
+
+ Val dice score:  0.90404314
+ 95%|#########5| 95/100 [12:13:32<38:26, 461.32s/it]
+ Train loss:  0.06437610897421837
+
+ Train dice score:  0.952839
+
+ Val loss:  0.13072172862788042
+
+ Val dice score:  0.89274025
+ 96%|#########6| 96/100 [12:21:14<30:45, 461.38s/it]
+ Train loss:  0.06348483316786588
+
+ Train dice score:  0.9540721
+
+ Val loss:  0.11938844979913146
+
+ Val dice score:  0.89736646
+ 97%|#########7| 97/100 [12:28:55<23:04, 461.38s/it]
+ Train loss:  0.061516165927052495
+
+ Train dice score:  0.9554063
+
+ Val loss:  0.12122675686798713
+
+ Val dice score:  0.89730996
+ 98%|#########8| 98/100 [12:36:37<15:22, 461.44s/it]
+ Train loss:  0.06037357793189585
+
+ Train dice score:  0.9554031
+
+ Val loss:  0.14256796451216494
+
+ Val dice score:  0.87624776
+ 99%|#########9| 99/100 [12:44:18<07:41, 461.47s/it]
+ Train loss:  0.06368102315813302
+
+ Train dice score:  0.95356303
+
+ Val loss:  0.11984916121043541
+
+ Val dice score:  0.8973588
+100%|##########| 100/100 [12:52:00<00:00, 461.52s/it]100%|##########| 100/100 [12:52:00<00:00, 463.20s/it]

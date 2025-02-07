@@ -1,0 +1,6 @@
+Data Augmentation:['color_jitter']
+{'data_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/mri', 'labels_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/segmentation', 'weights_path': '/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir', 'input_ch': 1, 'output_ch': 2, 'nb_dataloaders': 1, 'patch_size': (96, 96, 96), 'stride': 32, 'lr': 0.01, 'test_split': 0.2, 'val_split': 0.1, 'smooth': 1e-05, 'ee': 2.220446049250313e-16, 'num_epochs': 100, 'batch_size': 2, 'device': 'cuda', 'note': 'Enleve autocast, ajoute color_jitter'}  0%|          | 0/100 [00:00<?, ?it/s]  0%|          | 0/100 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/a3D_UNet_1dataloader_1label.py", line 330, in <module>
+    assert torch.all(torch.isfinite(x)), "Les entrées contiennent des NaN ou Inf !"
+TypeError: isfinite(): argument 'input' (position 1) must be Tensor, not Subject

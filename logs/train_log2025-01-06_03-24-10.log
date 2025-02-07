@@ -1,0 +1,802 @@
+Data Augmentation:['random_invert', 'gaussian_noise']
+{'data_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/mri', 'labels_path': '/home/imag2/Desktop/BabySynthSeg-main/Data/FeTA_2022_test/segmentation', 'weights_path': '/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir', 'input_ch': 1, 'output_ch': 2, 'nb_dataloaders': 1, 'patch_size': (96, 96, 96), 'stride': 32, 'lr': 0.01, 'test_split': 0.2, 'val_split': 0.1, 'smooth': 1e-05, 'ee': 2.220446049250313e-16, 'num_epochs': 100, 'batch_size': 2, 'device': 'cuda'}  0%|          | 0/100 [00:00<?, ?it/s]
+ Train loss:  0.6129280906915665
+
+ Train dice score:  0.5588622
+
+ Val loss:  3.0386472521004855
+
+ Val dice score:  0.18098158
+  1%|1         | 1/100 [04:45<7:51:37, 285.83s/it]
+ Train loss:  0.5893613258600235
+
+ Train dice score:  0.5720823
+
+ Val loss:  1.8838850480538827
+
+ Val dice score:  0.28134382
+  2%|2         | 2/100 [09:25<7:40:38, 282.03s/it]
+ Train loss:  0.5714558736383915
+
+ Train dice score:  0.57892746
+
+ Val loss:  2.8033855204229003
+
+ Val dice score:  0.20620747
+  3%|3         | 3/100 [14:02<7:32:42, 280.03s/it]
+ Train loss:  0.5548045972883702
+
+ Train dice score:  0.5890039
+
+ Val loss:  3.3380821380350323
+
+ Val dice score:  0.17919922
+  4%|4         | 4/100 [18:40<7:26:15, 278.91s/it]
+ Train loss:  0.5487013953328133
+
+ Train dice score:  0.5938729
+
+ Val loss:  3.0441782893957914
+
+ Val dice score:  0.20184247
+  5%|5         | 5/100 [23:17<7:20:42, 278.34s/it]
+ Train loss:  0.5359485846757889
+
+ Train dice score:  0.59538966
+
+ Val loss:  3.858303834994634
+
+ Val dice score:  0.1573504
+  6%|6         | 6/100 [27:53<7:14:47, 277.52s/it]
+ Train loss:  0.5042758628129959
+
+ Train dice score:  0.61235595
+
+ Val loss:  1.8856842357803274
+
+ Val dice score:  0.32251936
+  7%|7         | 7/100 [32:29<7:09:23, 277.02s/it]
+ Train loss:  0.4917825188934803
+
+ Train dice score:  0.6255346
+
+ Val loss:  4.054967120841697
+
+ Val dice score:  0.15470257
+  8%|8         | 8/100 [37:04<7:04:06, 276.59s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+  9%|9         | 9/100 [41:38<6:58:11, 275.73s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 10%|#         | 10/100 [46:10<6:51:48, 274.54s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 11%|#1        | 11/100 [50:41<6:45:32, 273.40s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 12%|#2        | 12/100 [55:12<6:40:03, 272.76s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 13%|#3        | 13/100 [59:44<6:34:59, 272.40s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 14%|#4        | 14/100 [1:04:15<6:29:54, 272.02s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 15%|#5        | 15/100 [1:08:46<6:25:04, 271.82s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 16%|#6        | 16/100 [1:13:18<6:20:17, 271.64s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 17%|#7        | 17/100 [1:17:49<6:15:40, 271.57s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 18%|#8        | 18/100 [1:22:20<6:11:03, 271.51s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 19%|#9        | 19/100 [1:26:51<6:06:14, 271.30s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 20%|##        | 20/100 [1:31:22<6:01:39, 271.24s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 21%|##1       | 21/100 [1:35:53<5:56:59, 271.13s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 22%|##2       | 22/100 [1:40:24<5:52:30, 271.16s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 23%|##3       | 23/100 [1:44:56<5:48:10, 271.31s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 24%|##4       | 24/100 [1:49:27<5:43:42, 271.35s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 25%|##5       | 25/100 [1:53:59<5:39:07, 271.30s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 26%|##6       | 26/100 [1:58:30<5:34:37, 271.32s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 27%|##7       | 27/100 [2:03:01<5:30:03, 271.28s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 28%|##8       | 28/100 [2:07:33<5:25:36, 271.33s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 29%|##9       | 29/100 [2:12:04<5:21:07, 271.37s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 30%|###       | 30/100 [2:16:35<5:16:31, 271.31s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 31%|###1      | 31/100 [2:21:07<5:12:00, 271.31s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 32%|###2      | 32/100 [2:25:38<5:07:26, 271.27s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 33%|###3      | 33/100 [2:30:10<5:03:04, 271.41s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 34%|###4      | 34/100 [2:34:41<4:58:33, 271.42s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 35%|###5      | 35/100 [2:39:12<4:54:00, 271.39s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 36%|###6      | 36/100 [2:43:44<4:49:36, 271.51s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 37%|###7      | 37/100 [2:48:16<4:45:12, 271.62s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 38%|###8      | 38/100 [2:52:48<4:40:47, 271.74s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 39%|###9      | 39/100 [2:57:20<4:36:24, 271.87s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 40%|####      | 40/100 [3:01:52<4:31:53, 271.88s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 41%|####1     | 41/100 [3:06:24<4:27:19, 271.85s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 42%|####2     | 42/100 [3:10:56<4:22:50, 271.91s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 43%|####3     | 43/100 [3:15:28<4:18:19, 271.91s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 44%|####4     | 44/100 [3:19:59<4:13:42, 271.83s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 45%|####5     | 45/100 [3:24:14<4:04:19, 266.53s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 46%|####6     | 46/100 [3:28:21<3:54:41, 260.77s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 47%|####6     | 47/100 [3:32:28<3:46:46, 256.72s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 48%|####8     | 48/100 [3:36:36<3:40:04, 253.93s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 49%|####9     | 49/100 [3:40:44<3:34:27, 252.30s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 50%|#####     | 50/100 [3:44:51<3:28:49, 250.60s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 51%|#####1    | 51/100 [3:48:58<3:23:54, 249.68s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 52%|#####2    | 52/100 [3:53:06<3:19:18, 249.14s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 53%|#####3    | 53/100 [3:57:14<3:14:44, 248.61s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 54%|#####4    | 54/100 [4:01:21<3:10:19, 248.25s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 55%|#####5    | 55/100 [4:05:28<3:05:59, 247.99s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 56%|#####6    | 56/100 [4:09:35<3:01:37, 247.67s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 57%|#####6    | 57/100 [4:13:42<2:57:22, 247.51s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 58%|#####8    | 58/100 [4:17:50<2:53:13, 247.46s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 59%|#####8    | 59/100 [4:21:57<2:49:00, 247.33s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 60%|######    | 60/100 [4:26:04<2:44:53, 247.33s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 61%|######1   | 61/100 [4:30:12<2:40:47, 247.38s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 62%|######2   | 62/100 [4:34:19<2:36:40, 247.39s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 63%|######3   | 63/100 [4:38:26<2:32:31, 247.35s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 64%|######4   | 64/100 [4:42:34<2:28:27, 247.43s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 65%|######5   | 65/100 [4:46:41<2:24:16, 247.33s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 66%|######6   | 66/100 [4:50:48<2:20:08, 247.30s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 67%|######7   | 67/100 [4:54:55<2:15:56, 247.18s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 68%|######8   | 68/100 [4:59:03<2:11:57, 247.41s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 69%|######9   | 69/100 [5:03:10<2:07:49, 247.40s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 70%|#######   | 70/100 [5:07:17<2:03:34, 247.15s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 71%|#######1  | 71/100 [5:11:24<1:59:25, 247.09s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 72%|#######2  | 72/100 [5:15:32<1:55:23, 247.26s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 73%|#######3  | 73/100 [5:19:39<1:51:17, 247.32s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 74%|#######4  | 74/100 [5:23:46<1:47:08, 247.23s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 75%|#######5  | 75/100 [5:27:53<1:43:00, 247.22s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 76%|#######6  | 76/100 [5:32:01<1:38:57, 247.42s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 77%|#######7  | 77/100 [5:36:08<1:34:48, 247.32s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 78%|#######8  | 78/100 [5:40:16<1:30:44, 247.49s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 79%|#######9  | 79/100 [5:44:23<1:26:33, 247.33s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 80%|########  | 80/100 [5:48:31<1:22:30, 247.52s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 81%|########1 | 81/100 [5:52:38<1:18:22, 247.48s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 82%|########2 | 82/100 [5:56:46<1:14:15, 247.51s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 83%|########2 | 83/100 [6:00:53<1:10:06, 247.46s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 84%|########4 | 84/100 [6:05:01<1:05:59, 247.50s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 85%|########5 | 85/100 [6:09:08<1:01:50, 247.38s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 86%|########6 | 86/100 [6:13:16<57:44, 247.44s/it]  
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 87%|########7 | 87/100 [6:17:23<53:35, 247.38s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 88%|########8 | 88/100 [6:21:30<49:28, 247.42s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 89%|########9 | 89/100 [6:25:38<45:22, 247.46s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 90%|######### | 90/100 [6:29:46<41:14, 247.50s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 91%|#########1| 91/100 [6:33:53<37:06, 247.42s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 92%|#########2| 92/100 [6:38:00<32:59, 247.46s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 93%|#########3| 93/100 [6:42:08<28:52, 247.50s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 94%|#########3| 94/100 [6:46:15<24:44, 247.42s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 95%|#########5| 95/100 [6:50:23<20:37, 247.53s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 96%|#########6| 96/100 [6:54:30<16:29, 247.45s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 97%|#########7| 97/100 [6:58:38<12:22, 247.50s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 98%|#########8| 98/100 [7:02:45<08:15, 247.56s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+ 99%|#########9| 99/100 [7:06:53<04:07, 247.51s/it]
+ Train loss:  nan
+
+ Train dice score:  nan
+
+ Val loss:  nan
+
+ Val dice score:  nan
+100%|##########| 100/100 [7:11:00<00:00, 247.52s/it]100%|##########| 100/100 [7:11:00<00:00, 258.61s/it]

@@ -1,0 +1,129 @@
+data_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/Data/FeTA_full_test_mounir/mri/'
+ segmentation_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/Data/FeTA_full_test_mounir/segmentation/'
+ weights_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir/model_weights_20250107-164226.pth'
+ seg_results_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/results_inference/seg/'
+ scores_results_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/results_inference/scores/'
+/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/3D_U-Net_inference.py:189: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(weights_path, map_location=torch.device(device)))
+20
+  0%|          | 0/20 [00:00<?, ?it/s]Patient number: 001
+Dice score: 0.030090450864915807
+Precision score: 0.01529871483475905
+Recall score: 0.9080167118720165
+Ventricles volume: 7855954
+Ventricles error: 7723.593
+  5%|5         | 1/20 [00:41<12:59, 41.01s/it]Patient number: 002
+Dice score: 0.051615432429801704
+Precision score: 0.02655626756246681
+Recall score: 0.9155772937507148
+Ventricles volume: 7387258
+Ventricles error: 7172.991
+ 10%|#         | 2/20 [01:23<12:31, 41.76s/it]Patient number: 003
+Dice score: 0.10269642082298136
+Precision score: 0.05431509905107422
+Recall score: 0.9400363388906082
+Ventricles volume: 7706034
+Ventricles error: 7260.781
+ 15%|#5        | 3/20 [02:06<11:58, 42.26s/it]Patient number: 004
+Dice score: 0.024700466067596162
+Precision score: 0.012517074298967127
+Recall score: 0.9265620491782887
+Ventricles volume: 9236104
+Ventricles error: 9111.332
+ 20%|##        | 4/20 [02:48<11:19, 42.48s/it]Patient number: 005
+Dice score: 0.014104577297453555
+Precision score: 0.007108872545549882
+Recall score: 0.8860086354707282
+Ventricles volume: 7851456
+Ventricles error: 7788.46
+ 25%|##5       | 5/20 [03:31<10:39, 42.64s/it]Patient number: 006
+Dice score: 0.0804372619792993
+Precision score: 0.04202413787165099
+Recall score: 0.9361101365012469
+Ventricles volume: 9332803
+Ventricles error: 8913.832
+ 30%|###       | 6/20 [04:14<09:58, 42.77s/it]Patient number: 007
+Dice score: 0.016894268632617584
+Precision score: 0.008529815432040497
+Recall score: 0.8714504642580261
+Ventricles volume: 10199869
+Ventricles error: 10100.032
+ 35%|###5      | 7/20 [04:58<09:18, 42.93s/it]Patient number: 008
+Dice score: 0.05798348238848998
+Precision score: 0.029922790883331992
+Recall score: 0.9317588731530899
+Ventricles volume: 8102152
+Ventricles error: 7841.957
+ 40%|####      | 8/20 [05:41<08:36, 43.07s/it]Patient number: 009
+Dice score: 0.302863207203705
+Precision score: 0.17916357949939685
+Recall score: 0.9783301503983624
+Ventricles volume: 7311179
+Ventricles error: 5972.268
+ 45%|####5     | 9/20 [06:25<07:55, 43.24s/it]Patient number: 010
+Dice score: 0.06995673076878521
+Precision score: 0.03631770460522115
+Recall score: 0.9484781165973981
+Ventricles volume: 8382000
+Ventricles error: 8061.049
+ 50%|#####     | 10/20 [07:08<07:13, 43.37s/it]Patient number: 101
+Dice score: 0.06358510284588975
+Precision score: 0.06352318153314032
+Recall score: 0.06364714499643945
+Ventricles volume: 2819270
+Ventricles error: 5.491
+ 55%|#####5    | 11/20 [07:52<06:31, 43.53s/it]Patient number: 102
+Dice score: 0.07814863526728671
+Precision score: 0.04666751074958665
+Recall score: 0.240149448378241
+Ventricles volume: 4936325
+Ventricles error: 3977.064
+ 60%|######    | 12/20 [08:36<05:49, 43.65s/it]Patient number: 103
+Dice score: 0.19462444707185045
+Precision score: 0.12788946003547697
+Recall score: 0.4070089107978432
+Ventricles volume: 5555493
+Ventricles error: 3809.858
+ 65%|######5   | 13/20 [09:20<05:05, 43.71s/it]Patient number: 104
+Dice score: 0.15172167531084657
+Precision score: 0.09153180358156382
+Recall score: 0.4430919781570448
+Ventricles volume: 5199100
+Ventricles error: 4125.095
+ 70%|#######   | 14/20 [10:04<04:22, 43.73s/it]Patient number: 105
+Dice score: 0.2840905699367209
+Precision score: 0.18632702084257394
+Recall score: 0.5976928015673185
+Ventricles volume: 6360194
+Ventricles error: 4377.443
+ 75%|#######5  | 15/20 [10:45<03:35, 43.12s/it]Patient number: 106
+Dice score: 0.21468919035435852
+Precision score: 0.13153067421411235
+Recall score: 0.5837699841869642
+Ventricles volume: 5764891
+Ventricles error: 4465.989
+ 80%|########  | 16/20 [11:27<02:50, 42.55s/it]Patient number: 107
+Dice score: 0.24541462027989536
+Precision score: 0.18100640013565936
+Recall score: 0.3809803631655579
+Ventricles volume: 5537539
+Ventricles error: 2906.616
+ 85%|########5 | 17/20 [12:08<02:06, 42.08s/it]Patient number: 108
+Dice score: 0.010199454880951433
+Precision score: 0.005463647936764372
+Recall score: 0.07656374290796897
+Ventricles volume: 4421771
+Ventricles error: 4106.23
+ 90%|######### | 18/20 [12:50<01:24, 42.19s/it]Patient number: 109
+Dice score: 0.003544965172692024
+Precision score: 0.0018501734962899374
+Recall score: 0.042210862384994656
+Ventricles volume: 4873597
+Ventricles error: 4659.979
+ 95%|#########5| 19/20 [13:33<00:42, 42.30s/it]Patient number: 110
+Dice score: 0.0013961599262233679
+Precision score: 0.0007145539951959541
+Recall score: 0.030278915784625948
+Ventricles volume: 4313180
+Ventricles error: 4211.393
+100%|##########| 20/20 [14:15<00:00, 42.39s/it]100%|##########| 20/20 [14:15<00:00, 42.79s/it]

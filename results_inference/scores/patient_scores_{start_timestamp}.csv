@@ -1,0 +1,3 @@
+Patient,Dice_score,Precision_score,Recall_score,V_Dice_score,Ventricles_volume,Ventricles_error
+Mean of FeTA Zurich dataset,0.906,0.873,0.944,0.906,367461.5,25.61
+Std Dev FeTA Zurich dataset,0.036,0.061,0.028,0.036,395150.28,46.013

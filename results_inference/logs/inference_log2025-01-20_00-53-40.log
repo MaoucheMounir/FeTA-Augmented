@@ -1,0 +1,151 @@
+data_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/Data/FeTA_full_test_mounir/mri/'
+ segmentation_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/Data/FeTA_full_test_mounir/segmentation/'
+ weights_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/weights_mounir/model_weights_2025-01-12_18-39-34.pth'
+ seg_results_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/results_inference/seg/'
+ scores_results_path='/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/results_inference/scores/'
+/home/imag2/Desktop/Segmentation-Mounir/BabySynthSeg copie/3D_U-Net/3D_U-Net_inference.py:189: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(weights_path, map_location=torch.device(device)))
+20
+
+  0%|          | 0/20 [00:00<?, ?it/s]Patient number: 001
+Dice score: 0.8990618314324305
+Precision score: 0.899619507251302
+Recall score: 0.8985048465945519
+Ventricles volume: 132197
+Ventricles error: -0.164
+
+  5%|5         | 1/20 [00:36<11:29, 36.27s/it]Patient number: 002
+Dice score: 0.9165922904140292
+Precision score: 0.9014667388757944
+Recall score: 0.9322340817767915
+Ventricles volume: 221580
+Ventricles error: 7.313
+
+ 10%|#         | 2/20 [01:13<10:59, 36.62s/it]Patient number: 003
+Dice score: 0.9411239825714324
+Precision score: 0.9302424565538956
+Recall score: 0.9522630953638667
+Ventricles volume: 455793
+Ventricles error: 10.54
+
+ 15%|#5        | 3/20 [01:50<10:25, 36.78s/it]Patient number: 004
+Dice score: 0.8906417964670775
+Precision score: 0.8285127101706975
+Recall score: 0.9628442278719357
+Ventricles volume: 145002
+Ventricles error: 20.23
+
+ 20%|##        | 4/20 [02:27<09:50, 36.90s/it]Patient number: 005
+Dice score: 0.8456889811260334
+Precision score: 0.7835371220459637
+Recall score: 0.9185503841526677
+Ventricles volume: 73851
+Ventricles error: 10.855
+
+ 25%|##5       | 5/20 [03:04<09:14, 36.99s/it]Patient number: 006
+Dice score: 0.939693991484841
+Precision score: 0.9668997245221634
+Recall score: 0.9139773397206156
+Ventricles volume: 396039
+Ventricles error: -22.932
+
+ 30%|###       | 6/20 [03:41<08:39, 37.10s/it]Patient number: 007
+Dice score: 0.8369749414105058
+Precision score: 0.7608301991940477
+Recall score: 0.9300559912664638
+Ventricles volume: 122043
+Ventricles error: 22.206
+
+ 35%|###5      | 7/20 [04:18<08:02, 37.11s/it]Patient number: 008
+Dice score: 0.9158914165275167
+Precision score: 0.8685920079959037
+Recall score: 0.9686389054364279
+Ventricles volume: 290165
+Ventricles error: 29.97
+
+ 40%|####      | 8/20 [04:55<07:25, 37.11s/it]Patient number: 009
+Dice score: 0.9365391066507404
+Precision score: 0.8873635041337209
+Recall score: 0.9914848709137564
+Ventricles volume: 1496016
+Ventricles error: 157.105
+
+ 45%|####5     | 9/20 [05:28<06:33, 35.79s/it]Patient number: 010
+Dice score: 0.9365918416607281
+Precision score: 0.9078609886850549
+Recall score: 0.967200600714853
+Ventricles volume: 341929
+Ventricles error: 20.978
+
+ 50%|#####     | 10/20 [06:00<05:46, 34.61s/it]Patient number: 101
+Dice score: 0.8127551588876331
+Precision score: 0.9815899905729093
+Recall score: 0.6934762822525531
+Ventricles volume: 1987886
+Ventricles error: -825.893
+
+ 55%|#####5    | 11/20 [06:32<05:04, 33.79s/it]Patient number: 102
+Dice score: 0.8792621298818869
+Precision score: 0.9335993000219813
+Recall score: 0.8309021215291449
+Ventricles volume: 853741
+Ventricles error: -105.52
+
+ 60%|######    | 12/20 [07:04<04:25, 33.23s/it]Patient number: 103
+Dice score: 0.8998283980438486
+Precision score: 0.9736214597117134
+Recall score: 0.836433160425956
+Ventricles volume: 1499666
+Ventricles error: -245.969
+
+ 65%|######5   | 13/20 [07:36<03:49, 32.83s/it]Patient number: 104
+Dice score: 0.9005149700183749
+Precision score: 0.9628522123312605
+Recall score: 0.845758632408745
+Ventricles volume: 943394
+Ventricles error: -130.611
+
+ 70%|#######   | 14/20 [08:08<03:15, 32.56s/it]Patient number: 105
+Dice score: 0.7276322029357902
+Precision score: 0.9663863580738594
+Recall score: 0.5834787121531733
+Ventricles volume: 1197133
+Ventricles error: -785.618
+
+ 75%|#######5  | 15/20 [08:40<02:41, 32.39s/it]Patient number: 106
+Dice score: 0.9219955172714053
+Precision score: 0.9523089432629102
+Recall score: 0.8935524004121222
+Ventricles volume: 1218761
+Ventricles error: -80.141
+
+ 80%|########  | 16/20 [09:12<02:09, 32.25s/it]Patient number: 107
+Dice score: 0.9160215438881081
+Precision score: 0.9653263052420332
+Recall score: 0.8715085922317485
+Ventricles volume: 2375230
+Ventricles error: -255.693
+
+ 85%|########5 | 17/20 [09:44<01:36, 32.16s/it]Patient number: 108
+Dice score: 0.4116839854996303
+Precision score: 0.43555745752601055
+Recall score: 0.3902915944381545
+Ventricles volume: 282748
+Ventricles error: -32.793
+
+ 90%|######### | 18/20 [10:16<01:04, 32.10s/it]Patient number: 109
+Dice score: 0.515542947422967
+Precision score: 0.5492050554685557
+Recall score: 0.48576898950703695
+Ventricles volume: 188944
+Ventricles error: -24.674
+
+ 95%|#########5| 19/20 [10:48<00:32, 32.05s/it]Patient number: 110
+Dice score: 0.21852153545341046
+Precision score: 0.16656533075442065
+Recall score: 0.3175847603395563
+Ventricles volume: 194074
+Ventricles error: 92.287
+
+100%|##########| 20/20 [11:20<00:00, 32.02s/it]
+100%|##########| 20/20 [11:20<00:00, 34.01s/it]
